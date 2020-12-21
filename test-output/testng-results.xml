@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16176" started-at="2020-12-21T08:45:48 IST" finished-at="2020-12-21T08:46:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16176" started-at="2020-12-21T08:45:48 IST" finished-at="2020-12-21T08:46:04 IST">
+      <class name="com.qa.system.test.testScripts.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="beforeSuite" is-config="true" duration-ms="216" started-at="2020-12-21T08:45:48 IST" finished-at="2020-12-21T08:45:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="beforeTest" is-config="true" duration-ms="7524" started-at="2020-12-21T08:45:48 IST" finished-at="2020-12-21T08:45:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2020-12-21T08:45:56 IST" finished-at="2020-12-21T08:45:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.system.test.testScripts.LoginTest.TestLoginToapplication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestLoginToapplication()[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="TestLoginToapplication" duration-ms="6799" started-at="2020-12-21T08:45:56 IST" description="login Test with valid Credintial" finished-at="2020-12-21T08:46:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginToapplication -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="afterMethod" is-config="true" duration-ms="773" started-at="2020-12-21T08:46:02 IST" finished-at="2020-12-21T08:46:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLoginToapplication status=SUCCESS method=LoginTest.TestLoginToapplication()[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.system.test.testScripts.LoginTest@7a9273a8]" name="afterTest" is-config="true" duration-ms="985" started-at="2020-12-21T08:46:03 IST" finished-at="2020-12-21T08:46:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.system.test.testScripts.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
